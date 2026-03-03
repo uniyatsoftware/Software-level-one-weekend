@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+        }
+        section{
+            display: flex;
+            flex-direction: row;
+        }
+        section:last-child{
+            display: flex;
+        }
+        footer{
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <h2>Flexbox</h2>
+
+    <div>Examples Of Flexbox</div>
+
+    <section>
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+        </ul>
+
+        <ol>
+            <li>One</li>
+            <li>Two</li>
+            <li>Three</li>
+        </ol>
+    </section>
+
+    <section>
+        <div style="background-color: teal; width: 33.3%; height: 150px;">Teal</div>
+        <div style="width: 66.7%;">
+            <div style="background-color: dodgerblue; height: 75px;">DodgerBlue</div>
+            <div style="background-color: green; height: 75px;">Green</div>
+        </div>
+    </section>
+
+    <footer>
+        <div style="background-color: black; width:33.3%; height: 150px">Black</div>
+        <div style="background-color: red; width: 33.3%; height: 150px">Red</div>
+        <div style="background-color: black; width: 33.3%; height: 150px">Black</div>
+    </footer>
+
+</body>
+</html>
