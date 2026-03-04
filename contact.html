@@ -7,8 +7,39 @@
 
     <link rel="stylesheet" href="style.css">
     
+    <style>
+
+        /* body{
+                transition: background 3s ease;
+
+            &:hover{
+                background: green;
+            }
+        } */
+        div{
+            width: 100px;
+            height: 100px;
+            background: red;
+            transition-property: width, height, myD, transform;
+            transition-duration: 3s;
+            transition-timing-function: ease;
+            transition-delay: 3s;
+
+            &:hover{
+                /* background: gold; */
+                width: 300px;
+                height: 300px;
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes myD {
+            from{background-color: red;} 
+            to{background-color: blue;}
+        }
+    </style>
 </head>
 <body>
-    
+    <div></div>
 </body>
 </html>
