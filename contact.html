@@ -20,10 +20,11 @@
             width: 100px;
             height: 100px;
             background: red;
-            transition-property: width, height, myD, transform;
+            transition-property: width, height, transform;
             transition-duration: 3s;
             transition-timing-function: ease;
             transition-delay: 3s;
+            animation-name: myD;
 
             &:hover{
                 /* background: gold; */
@@ -32,6 +33,8 @@
                 transform: rotate(360deg);
             }
         }
+
+
 
         @keyframes myD {
             from{background-color: red;} 
