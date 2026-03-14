@@ -1,4 +1,17 @@
 
+/* @import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap');*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Akronim&family=Gamja+Flower&display=swap');
+
+*{
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 4px 4px 5px red;
+    word-spacing: 15px;
+}
+
         body{
             background-color: dodgerblue;
             text-align: center;
@@ -8,6 +21,7 @@
         input{
             width: 300px;
             height: 50px;
+            box-shadow: 5px 5px 7px black;
 
             &:focus{
                 outline-color: red;
